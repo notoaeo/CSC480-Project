@@ -1,0 +1,120 @@
+{
+  "n_train": 25000,
+  "n_test": 25000,
+  "best": {
+    "model": "Linear SVM",
+    "vectorizer": "TF-IDF (uni+bi)",
+    "acc": 0.91124,
+    "f1": 0.9117939340938904
+  },
+  "results": [
+    {
+      "vectorizer": "BoW (uni)",
+      "model": "Naive Bayes",
+      "vocab": 26837,
+      "test_acc": 0.84156,
+      "precision": 0.8598398651495996,
+      "recall": 0.81616,
+      "f1": 0.8374307408167453,
+      "cv_mean": 0.8421200000000001,
+      "cv_std": 0.0025568730903194874,
+      "train_s": 0.015425920486450195
+    },
+    {
+      "vectorizer": "BoW (uni)",
+      "model": "Logistic Regression",
+      "vocab": 26837,
+      "test_acc": 0.88092,
+      "precision": 0.8793721615807505,
+      "recall": 0.88296,
+      "f1": 0.881162428645563,
+      "cv_mean": 0.8773199999999999,
+      "cv_std": 0.0025317187837514787,
+      "train_s": 3.896080732345581
+    },
+    {
+      "vectorizer": "BoW (uni)",
+      "model": "Linear SVM",
+      "vocab": 26837,
+      "test_acc": 0.85996,
+      "precision": 0.8588976629177634,
+      "recall": 0.86144,
+      "f1": 0.8601669529096937,
+      "cv_mean": 0.85564,
+      "cv_std": 0.003326018640957971,
+      "train_s": 4.327977895736694
+    },
+    {
+      "vectorizer": "TF-IDF (uni)",
+      "model": "Naive Bayes",
+      "vocab": 26837,
+      "test_acc": 0.8572,
+      "precision": 0.8720213297783703,
+      "recall": 0.83728,
+      "f1": 0.8542976083585013,
+      "cv_mean": 0.85944,
+      "cv_std": 0.003399764697740124,
+      "train_s": 0.01447916030883789
+    },
+    {
+      "vectorizer": "TF-IDF (uni)",
+      "model": "Logistic Regression",
+      "vocab": 26837,
+      "test_acc": 0.89336,
+      "precision": 0.8857680841048172,
+      "recall": 0.9032,
+      "f1": 0.8943991127307296,
+      "cv_mean": 0.8898399999999999,
+      "cv_std": 0.00341150992963527,
+      "train_s": 0.4725320339202881
+    },
+    {
+      "vectorizer": "TF-IDF (uni)",
+      "model": "Linear SVM",
+      "vocab": 26837,
+      "test_acc": 0.89068,
+      "precision": 0.8869344742888836,
+      "recall": 0.89552,
+      "f1": 0.8912065602483977,
+      "cv_mean": 0.8888,
+      "cv_std": 0.002120377324911783,
+      "train_s": 0.3966379165649414
+    },
+    {
+      "vectorizer": "TF-IDF (uni+bi)",
+      "model": "Naive Bayes",
+      "vocab": 152680,
+      "test_acc": 0.88356,
+      "precision": 0.8937340888560401,
+      "recall": 0.87064,
+      "f1": 0.8820359038781052,
+      "cv_mean": 0.88372,
+      "cv_std": 0.0025126878039263283,
+      "train_s": 0.04230213165283203
+    },
+    {
+      "vectorizer": "TF-IDF (uni+bi)",
+      "model": "Logistic Regression",
+      "vocab": 152680,
+      "test_acc": 0.9006,
+      "precision": 0.8914249980458063,
+      "recall": 0.91232,
+      "f1": 0.9017514727394932,
+      "cv_mean": 0.8963599999999999,
+      "cv_std": 0.002121885953579966,
+      "train_s": 1.638115406036377
+    },
+    {
+      "vectorizer": "TF-IDF (uni+bi)",
+      "model": "Linear SVM",
+      "vocab": 152680,
+      "test_acc": 0.91124,
+      "precision": 0.9061388954728609,
+      "recall": 0.91752,
+      "f1": 0.9117939340938904,
+      "cv_mean": 0.9062800000000001,
+      "cv_std": 0.0023103246525109818,
+      "train_s": 0.8695926666259766
+    }
+  ]
+}

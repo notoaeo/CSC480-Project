@@ -1,0 +1,36 @@
+{
+  "pos": [
+    "great",
+    "excellent",
+    "the best",
+    "perfect",
+    "amazing",
+    "wonderful",
+    "best",
+    "loved",
+    "love",
+    "well",
+    "fun",
+    "hilarious",
+    "brilliant",
+    "enjoyed",
+    "dvd"
+  ],
+  "neg": [
+    "bad",
+    "worst",
+    "awful",
+    "the worst",
+    "boring",
+    "poor",
+    "waste",
+    "nothing",
+    "terrible",
+    "stupid",
+    "no",
+    "worse",
+    "horrible",
+    "even",
+    "minutes"
+  ]
+}

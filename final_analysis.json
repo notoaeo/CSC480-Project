@@ -1,0 +1,127 @@
+{
+  "ablations": [
+    {
+      "ablation": "Baseline: TF-IDF uni+bi, sublinear, C=1",
+      "acc": 0.91124,
+      "f1": 0.9117939340938904,
+      "vocab": 152680
+    },
+    {
+      "ablation": "+ English stop words removed",
+      "acc": 0.89864,
+      "f1": 0.8994125119085424,
+      "vocab": 76677
+    },
+    {
+      "ablation": "sublinear_tf=False (raw counts)",
+      "acc": 0.9106,
+      "f1": 0.9111720519852152,
+      "vocab": 152680
+    },
+    {
+      "ablation": "min_df=1",
+      "acc": 0.91228,
+      "f1": 0.9130486499345783,
+      "vocab": 1514004
+    },
+    {
+      "ablation": "min_df=2",
+      "acc": 0.91324,
+      "f1": 0.9138088615140075,
+      "vocab": 430159
+    },
+    {
+      "ablation": "min_df=10",
+      "acc": 0.90908,
+      "f1": 0.9096330457599491,
+      "vocab": 78658
+    },
+    {
+      "ablation": "min_df=25",
+      "acc": 0.90236,
+      "f1": 0.9028766959774003,
+      "vocab": 33517
+    },
+    {
+      "ablation": "min_df=50",
+      "acc": 0.89764,
+      "f1": 0.8981249253553087,
+      "vocab": 17331
+    },
+    {
+      "ablation": "C=0.01",
+      "acc": 0.866,
+      "f1": 0.8690792559012037,
+      "vocab": 152680
+    },
+    {
+      "ablation": "C=0.1",
+      "acc": 0.90324,
+      "f1": 0.9044289044289044,
+      "vocab": 152680
+    },
+    {
+      "ablation": "C=0.5",
+      "acc": 0.91168,
+      "f1": 0.9123113582208102,
+      "vocab": 152680
+    },
+    {
+      "ablation": "C=2.0",
+      "acc": 0.9098,
+      "f1": 0.9103272756193582,
+      "vocab": 152680
+    },
+    {
+      "ablation": "C=5.0",
+      "acc": 0.90804,
+      "f1": 0.9085339168490153,
+      "vocab": 152680
+    },
+    {
+      "ablation": "Unigrams only (no bigrams)",
+      "acc": 0.89068,
+      "f1": 0.8912065602483977,
+      "vocab": 26837
+    },
+    {
+      "ablation": "LogReg baseline: TF-IDF uni+bi, sublinear, C=1",
+      "acc": 0.9006,
+      "f1": 0.9017514727394932,
+      "vocab": 152680
+    }
+  ],
+  "length_buckets": [
+    {
+      "bucket": "Short (< 100 words)",
+      "n": 3112,
+      "accuracy": 0.9248071979434447
+    },
+    {
+      "bucket": "Medium (100-250)",
+      "n": 14590,
+      "accuracy": 0.9100068540095956
+    },
+    {
+      "bucket": "Long (250-500)",
+      "n": 5357,
+      "accuracy": 0.90703752100056
+    },
+    {
+      "bucket": "Very long (500+)",
+      "n": 1941,
+      "accuracy": 0.910355486862442
+    }
+  ],
+  "negation": {
+    "with_negation": {
+      "n": 21850,
+      "acc": 0.9095652173913044
+    },
+    "without_negation": {
+      "n": 3150,
+      "acc": 0.9228571428571428
+    },
+    "errors_with_negation_pct": 89.04912122577738
+  }
+}

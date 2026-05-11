@@ -1,0 +1,32 @@
+[
+  {
+    "true": "pos",
+    "pred": "neg",
+    "text": "this movie probably had a $750 budget, and still managed to surpass titanic. i rented this the day i crashed my mom's car, and it was the only thing that cheered me up beyond belief! it has to be tied with 'the assult of the killer bimbos'. things to look for are: 1. the drive in..."
+  },
+  {
+    "true": "pos",
+    "pred": "neg",
+    "text": "what a show! lorenzo lamas once again proves his talent as a cop who committed the worst crime a good cop can commit, by being a good cop. then, again, he shows how sensitive a cop can be, displaying a range of emotions like no other actor can except, maybe, himself in terminal j..."
+  },
+  {
+    "true": "pos",
+    "pred": "neg",
+    "text": "i saw sea of dust as part of a nyc screening audience several years ago. i enjoyed the film at that time, so i was a little confused by some of the amendments that had been made since. perhaps it's my memory, but there seemed to be chunks of exposition missing from the version th..."
+  },
+  {
+    "true": "neg",
+    "pred": "pos",
+    "text": "star rating: ***** saturday night **** friday night *** friday morning ** sunday night * monday morning old detroit is back, with the giant omni consumer corporation continuing to swallow everything in it's path as construction of the new delta city continues and a new menace to ..."
+  },
+  {
+    "true": "neg",
+    "pred": "pos",
+    "text": "essentially a story of man versus nature, this film has beautiful cinematography, the lush jungles of ceylon and the presence of elizabeth taylor but the film really never gets going. newlwed taylor is ignored and neglected by her husband and later is drawn to the plantation's fo..."
+  },
+  {
+    "true": "neg",
+    "pred": "pos",
+    "text": "there are some nice shots in this film, it catches some of the landscapes with such a beautiful light, in fact the cinematography is probably it's best asset. but it's basically more of a made for tv movie, and although it has a lot of twists and turns in the plot, which keeps it..."
+  }
+]
